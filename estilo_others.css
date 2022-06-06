@@ -1,0 +1,508 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* CABEÇALHO */
+
+header {
+  height: 68px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container > a {
+  text-decoration: none;
+}
+
+.fatec {
+  color: #E1E1E6;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.fatec span {
+  color: #4863F7;
+}
+
+.fatec:hover {
+  color: #4863F7;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #E1E1E6;
+  width: 45%;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  border: #4863F7 solid 2px;
+}
+
+.link-home {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #4863F7;
+  width: 45%;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  border: #4863F7 solid 2px;
+}
+
+.link-home:hover {
+  width: 45%;
+  padding: 5px;
+  border: #4863F7 solid 2px;
+  color: #E1E1E6;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.link:hover {
+  width: 45%;
+  padding: 5px;
+  border: #4863F7 solid 2px;
+  color: #E1E1E6;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+/* BODY */
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  background-color: #0B0B0C;
+  box-sizing: border-box;
+}
+/* PÁGINA ALUNO */
+
+#aluno{
+  height: 100vh;
+}
+.div-aluno-titulo{
+  width: 70%;
+  margin: 2em auto;
+}
+
+.aluno-titulo{
+  text-align: center;
+  color: #E1E1E6;
+  font-size: 36px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.sobre-mim {
+  display: flex;
+  width: 70%;
+  margin: 2em auto;
+  flex-grow: 1;
+  border-top: #4863F7 solid;
+  border-bottom: #4863F7 solid;
+  padding: 2em 1em 2em 1em;
+}
+
+.sobre-mim h4 {
+  color: #E1E1E6;
+  font-size: 36px;
+  border-bottom: solid #4863F7;
+  width: 50%;
+  text-align: center;
+  margin-left: 0;
+}
+
+.sobre-mim ul {
+  flex-grow: 1;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  margin: 1em auto 1em auto;
+}
+
+.sobre-mim ul li {
+  font-size: 18px;
+  color: #A8A8A4;
+  line-height: 1.5;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  list-style-type: none;
+}
+
+.div-foto-sobre-mim {
+  width: 50vh;
+  margin: 0 auto;
+}
+
+.foto-sobre-mim img {
+  width: 50vh;
+}
+
+.foto-sobre-mim {
+  width: 50%;
+}
+
+.texto-sobre-mim {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto-sobre-mim h3 {
+  color: #E1E1E6;
+  font-size: 36px;
+  border-bottom: solid #4863F7;
+  width: 50%;
+  text-align: center;
+}
+
+.texto-sobre-mim p {
+  color: #A8A8A4;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  margin: 1em auto 1em auto;
+}
+
+
+.container-video-audio{
+  max-width: 70%;
+  margin: 2em auto;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  border-bottom: #4863F7 solid;
+}
+
+.video{
+  flex: 1;
+  height: auto;
+  padding: 0 .5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.video iframe{
+  margin: 1em auto;
+}
+
+.video h2{
+  text-align: center;
+  color: #E1E1E6;
+  font-size: 18px;
+  border-bottom: solid #4863F7;
+  width: 25%;
+  margin: .5em auto;
+  padding-bottom: .1em;
+}
+
+.podcast{
+  flex: 1;
+  height: auto;
+  padding: 0 .5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.podcast h2{
+  text-align: center;
+  color: #E1E1E6;
+  font-size: 18px;
+  border-bottom: solid #4863F7;
+  width: 25%;
+  margin: .5em auto;
+  padding-bottom: .1em;
+}
+
+.podcast div{
+  margin: 1em auto;
+}
+
+/* PÁGINA DISCIPLINAS */
+.semestres {
+  max-width: 70%;
+  margin: 2em auto;
+}
+
+.div-titulo-semestre {
+  margin: 1em 0 1em 0;
+}
+
+.titulo-semestre {
+  text-align: center;
+  margin-top: 0;
+  color: #E1E1E6;
+  font-size: 24px;
+  border-bottom: solid #4863F7;
+  width: 40%;
+  margin: 1.5em auto;
+}
+
+.container-semestre {
+  height: auto;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+}
+
+.disciplinas-semestre {
+  height: 150px;
+  width: calc(33,333% - 1rem) ;
+  border: #4863F7 solid;
+  border-radius: 10px;
+  background-color: #0B0B0C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.disciplinas-semestre > p {
+  text-align: center;
+  color: #A8A8A4;
+  font-size: 12px;
+  flex: 1;
+}
+
+.disciplinas-semestre > h2 {
+  text-align: center;
+  color: #E1E1E6;
+  font-size: 14px;
+  flex: 1;
+  padding-bottom: 1em;
+}
+
+.disciplinas-semestre img {
+  width: 48px;
+  height: 48px;
+  padding: 1.5em 0;
+}
+
+.disciplinas-semestre:hover {
+  background-color: rgba(44, 112, 255, 20%);
+  cursor: pointer;
+}
+
+/* PÁGINA LINKS */
+.container-lista-alunos{
+  width: 70%;
+  margin: 2em auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+}
+
+.div-lista-alunos{
+  display: flex;
+  align-items: center;
+  padding: .2em;
+  border: #4863F7 solid;
+  border-radius: 10px;
+  background-color: #0B0B0C;
+}
+
+.div-lista-alunos:hover{
+  background-color: rgba(44, 112, 255, 20%);
+  cursor: pointer;
+}
+.div-img{
+  height: 50px;
+}
+
+.div-nome-link{
+ width: auto;
+}
+
+.div-nome-link a h1{
+  text-align: left;
+  color: #E1E1E6;
+  font-size: 14px;
+  margin-left: 1em;
+  width: calc(100% - 1em);
+}
+
+.div-nome-link a{
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 16px 0 16px 0;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.ul-redes {
+  display: flex;
+}
+.nome {
+  width: 50%;
+}
+.redes-icon {
+  margin-right: 20px;
+}
+
+i:hover {
+  font-size: 40px;
+  color: #4863F7(44, 112, 255, 90%);
+  border-radius: 50%;
+  cursor: pointer;
+}
+footer h2 {
+  text-align: center;
+  color: #E1E1E6;
+  font-size: 18px;
+  margin: 0 auto;
+}
+footer h2 span {
+  color: #4863F7;
+}
+
+i {
+  font-size: 40px;
+  color: #4863F7;
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .lista-motivos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lista-motivos li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 411px) {
+  header {
+    height: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-cab {
+    justify-content: space-around;
+  }
+
+  .menunav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .link {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #E1E1E6;
+    width: 45%;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .link-home {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #4863F7;
+    width: 45%;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .link-home:hover {
+    width: 45%;
+    padding: 5px;
+    border-bottom: #4863F7 solid 1px;
+    color: #E1E1E6;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .link:hover {
+    width: 45%;
+    padding: 5px;
+    border-bottom: #4863F7 solid 1px;
+    color: #E1E1E6;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .lista-motivos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lista-motivos li {
+    width: 100%;
+  }
+  .img {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 34vh;
+  }
+
+  .foto-leo {
+    width: 80%;
+  }
+
+  .container-mapa {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  footer h2 {
+    text-align: center;
+    color: #E1E1E6;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .nome {
+    width: 100%;
+    color: #E1E1E6;
+  }
+}
